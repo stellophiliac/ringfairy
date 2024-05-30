@@ -1,0 +1,37 @@
+<!-- list_template.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="./styles.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>roboring</title>
+</head>
+
+<body>
+  <h1>roboring</h1>
+  <p>a webring for robot-aligned beings!</p>
+  <h2>members</h2>
+  <div id="members">
+    {{ table_of_sites | safe}}
+  </div>
+  <h2>join</h2>
+  <p>corpo websites and sites with bigotry/hate speech will not be allowed.<br>
+    in general, most sites will be accepted, but i do reserve the right to reject sites</p>
+  <ol>
+    <li>choose a slug (unique code) for your site</li>
+    <li>add the webring HTML somewhere on your site:<br>
+      <br>
+      feel free to customize the content as you'd like, as long as the links are intact. make sure to replace "YOUR_SLUG" with your actual slug!
+    </li>
+  </ol>
+  <br>
+  <footer>
+    <p>last updated at {{ current_time }} UTC+8<br>
+      powered by <a href="https://github.com/k3rs3d/ringfairy" target="_blank">ringfairy</a></p>
+  </footer>
+</body>
+
+</html>
