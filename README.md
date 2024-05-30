@@ -7,9 +7,9 @@ a webring for robot-aligned beings! powered by [ringfairy](https://github.com/k3
 2. add the webring links to your site:
 
   ```html
-  <a href="https://stellophiliac.github.io/roboring/YOUR_SLUG/previous"> <- <a>
-  <a href="https://stellophiliac.github.io/roboring">roboring<a>
-  <a href="https://stellophiliac.github.io/roboring/YOUR_SLUG/next"> -> <a>
+  <a href="https://stellophiliac.github.io/roboring/YOUR_SLUG/previous"> <- </a>
+  <a href="https://stellophiliac.github.io/roboring">roboring</a>
+  <a href="https://stellophiliac.github.io/roboring/YOUR_SLUG/next"> -> </a>
   ```
 
   3. submit a pull request adding yourself to `websites.json`, or email me at `stel@disroot.org` and i'll add you manually.
