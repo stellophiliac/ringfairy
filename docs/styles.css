@@ -41,6 +41,11 @@ a:hover, a:focus {
     color: #111; 
 }
 
+b {
+    color:#58d3d7;
+    font-weight: bold;
+}
+
 #members {
     width:100%;
     overflow-x:auto
