@@ -206,10 +206,10 @@ impl HtmlGenerator {
         table_html.push_str("    <thead>\n");
         table_html.push_str("        <tr>\n");
         table_html.push_str("            <th scope=\"col\">#</th>\n");
-        table_html.push_str("            <th scope=\"col\">Name</th>\n");
+        table_html.push_str("            <th scope=\"col\">slug</th>\n");
         table_html.push_str("            <th scope=\"col\">URL</th>\n");
-        table_html.push_str("            <th scope=\"col\">About</th>\n");
-        table_html.push_str("            <th scope=\"col\">Owner</th>\n");
+        table_html.push_str("            <th scope=\"col\">about</th>\n");
+        table_html.push_str("            <th scope=\"col\">owner</th>\n");
         table_html.push_str("        </tr>\n");
         table_html.push_str("    </thead>\n");
 
